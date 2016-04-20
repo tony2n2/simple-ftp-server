@@ -1,0 +1,1 @@
+mytftpd.d: ../mytftpd.c

@@ -1,0 +1,8 @@
+tftpd <port> <address>
+
+<port> : Let the tftp server listen on a specific port. assign port 0 or leave empty for a random ephemeral port.
+
+<address> : Let the server accept incoming request from a specific address. Address is passed in hexadecimal format.
+
+Example:
+  tftpd 0 0x7F000001
